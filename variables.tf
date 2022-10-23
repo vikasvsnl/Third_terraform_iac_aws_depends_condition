@@ -43,11 +43,11 @@ variable "company" {
 variable "project" {
   type        = string
   description = "Project name for resource tagging"
-  default = "Sehgal_S3_depends"
+  default     = "Sehgal_S3_depends"
 }
 
 variable "billing_code" {
   type        = string
   description = "Billing code for resource tagging"
-  default = "Sehgal_cost_center"
+  default     = "Sehgal_cost_center"
 }
