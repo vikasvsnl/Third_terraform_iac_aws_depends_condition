@@ -6,7 +6,7 @@ pipeline{
     stages {
         stage('checkout from GIT') {
             steps {
-                git branch: 'main', credentialsId: '2ec5da10-6c6f-4f7b-b86b-ae6096f13ad3', url: 'https://github.com/vikasvsnl/Third_terraform_iac_aws_depends_condition' 
+                git branch: 'master', credentialsId: '2ec5da10-6c6f-4f7b-b86b-ae6096f13ad3', url: 'https://github.com/vikasvsnl/Third_terraform_iac_aws_depends_condition' 
             }
         }
         stage('terraform init') {
